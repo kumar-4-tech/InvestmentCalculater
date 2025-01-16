@@ -1,0 +1,36 @@
+body {
+    margin: 20px; /* Adds margin around the entire body */
+  }
+  
+  .input-form-container {
+    margin-bottom: 20px; /* Adds space below input form */
+  }
+  
+  table {
+      margin-left: auto;
+      margin-right: auto;
+      width: fit-content;
+      border-collapse: collapse; /* Prevents spacing around cells */
+      margin-top: 20px; /* Adds space above the table */
+  }
+  
+  th, td {
+      border: 1px solid #ddd; /* Optional: Adds cell borders */
+      padding: 8px; /* Adds padding within cells */
+      text-align: center; /* aligns the table data to center */
+  }
+  
+  th {
+      background-color: #f2f2f2; /* Optional: adds a background to header cell */
+  }
+
+  .center {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute; /* Using absolute positioning instead of fixed */
+    top: 80%; /* Starting from middle of screen*/
+    left: 50%;/* Starting from middle of screen*/
+    transform: translate(-50%, -50%); /* Translate element back to the middle of the screen */
+}
